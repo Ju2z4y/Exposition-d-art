@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+/* ------------MENU NAV ----------------- */
+
+#menuNav {
+	text-align: center;
+    border: 1px #0568CD solid;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.right {
+	float: right;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+/* ------------- USERMENU -------------- */
+
+.userMenu {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+/* ------------FORMULAIRES--------------- */
+
+
+.tailleOeuvre {
+	width: 47px;
+}
+
+form {
+	display: flex;
+	justify-content: center;
+}
+
+fieldset {
+    padding: 10px;
+    border: 1px #0568CD solid;
+    width: 700px;
+    height: 100%;
+}
+
+
+body, p, legend, label, input {
+    font: normal 8pt verdana, helvetica, sans-serif;
+}
+
+form label {
+    float: left;
+    text-align: right;
+    padding-right: 5px;
+    width: 180px;
+    margin: 3px 0px 0px 0px;
+}
+
+form input {
+    margin: 3px 3px 0px 0px;
+    border: 1px #999 solid;
+}
+
+
+/* Tableaux -------------------------------------------------------------------------------------*/
+
+table{
+	border-collapse: collapse;
+		margin: 0 auto;
+}
+
+th{
+	color: #0568CD; 
+	border: 1px solid #0568CD;
+	padding: 5px;
+	margin: 0 auto;
+
+}
+
+td{
+	border: 1px solid #ddd;
+	padding: 5px;
+	margin: 0 auto;	
+	text-align: center;
+}
+
+/* ------------ ELEMENTS ----------- */
+
+button {
+    background-color: white; 
+    color: black; 
+    border: 1px solid #008CBA;
+    border-radius: 4px 4px 4px;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.bouton {
+	background-color: white; 
+    color: black; 
+    border: 1px solid #008CBA;
+    border-radius: 4px 4px 4px;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+	display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.imageOeuvre {
+
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+}
+
+a {
+	color: black;
+}
+
+.requis {
+	color: red;
+}
+
+.succes {
+	color: green;
+}
+
+h3 {
+	text-align: center;
+}
+
+/* ----------------------- TEST ----------------------- */
+
+.container {
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.oeuvre {
+	margin: 5px;
+	border: 1px solid #0568CD;
+	padding: 5px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content : space-between;
+}
+
+.oeuvre p {
+	margin: 2px;
+	padding: 2px;
+}
+

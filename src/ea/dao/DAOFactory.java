@@ -33,11 +33,7 @@ public class DAOFactory {
      * données, charger le driver JDBC et retourner une instance de la Factory
      */
     public static DAOFactory getInstance() throws DAOConfigurationException {
-        Properties properties = new Properties();
-        String url;
-        String driver;
-        String nomUtilisateur;
-        String motDePasse;
+
 
         ClassLoader classLoader = Thread.currentThread().getContextClassLoader();
         InputStream fichierProperties = classLoader.getResourceAsStream( FICHIER_PROPERTIES );
